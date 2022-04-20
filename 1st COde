@@ -1,0 +1,52 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+ #include <iostream>
+
+using namespace std;
+    
+
+
+   class complexnum{
+    int real,imaginary;
+    public:
+    complexnum()
+    {real=0,imaginary=0;}
+    complexnum(int x,int y){
+        real=x; imaginary=y;
+    }
+    
+    void read()
+{
+    cout<<"\n enter real part";
+    cin>>real;
+    cout<<"\n enter imaginary part";
+    cin>>imaginary;
+    complexNum add complex(complexNum)
+    complex
+    
+}
+void display()
+{
+    if(imaginary<0)
+    cout<<real<<imaginary<<"i";
+    else
+    cout<<real<<"+"<<imaginary<<"i";
+}
+       complexnum addcomplex(complexnum c2){
+           complexnum c3;
+           c3.real=real+c2.real;
+           c3.imaginary=imaginary+c2.imaginary;
+           return c3;
+       }
+   };
+int main()
+{
+    complexnum c1,c2;
+    c1.display();
+    
